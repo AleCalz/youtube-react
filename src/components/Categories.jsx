@@ -9,11 +9,11 @@ export default function Categories() {
         "Life Style"
     ]
     return (
-        <div id="categories-list">
+        <div className="flex flex-row gap-4">
             {
                 categories.map((category) => {
                     return (
-                        <span key={`categories-${category}`} className="category">
+                        <span key={`categories-${category}`} className="py-2 px-4 rounded-3xl bg-[#282828]">
                             {category}
                         </span>
                     )

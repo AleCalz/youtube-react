@@ -7,7 +7,7 @@ export default function Menu() {
     ]
     return (
         // list rendering
-        <aside id="menu">
+        <aside className="col-start-1 col-end-2 pl-4">
             
             {/* <div className="menu-item">
                 <span>🩳</span>
@@ -26,7 +26,7 @@ export default function Menu() {
                 // .filter((item) => item.text.startsWith('S')) que empiecen con s
                 .map((item) => {
                     return (
-                        <div key={`menu-item-${item.text}`} className="menu-item">
+                        <div key={`menu-item-${item.text}`} className="p-4 rounded-3xl flex flex-row gap-2 items-center hover:bg-[#282828]">
                             <span>{item.icon}</span>
                             <span>{item.text}</span>
                         </div>

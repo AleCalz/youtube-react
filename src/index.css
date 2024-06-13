@@ -1,31 +1,41 @@
-*{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
+} */
+/*  ya estan implementados con tailwind
 body {
     background-color: #0f0f0f;
     color: white;
-}
+} 
+*/
 
+/* 
 #main-layout {
     width: 100%;
     padding: 1rem;
-    /* height: 100dvh;  el DVH es para movil, se adapta perfecto*/
+    height: 100dvh; /// el DVH es para movil, se adapta perfecto
     min-height: 100dvh;
     display: grid;
-    grid-template-columns: 20% 1fr; /* 1fr  un fraccion o auto funciona*/
-    grid-template-rows: 3.2rem 1fr; /* especificamos cuantas columnas o filas son y sus tasma;os*/
-}
+    grid-template-columns: 20% 1fr; 1fr  un fraccion o auto funciona
+    grid-template-rows: 3.2rem 1fr;  especificamos cuantas columnas o filas son y sus tasma;os
+} 
+*/
 
+/* 
 #navbar {
     grid-column: 1 / 3;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+} 
+*/
 
+/* 
 #logo {
     display: flex;
     flex-direction: row;
@@ -33,14 +43,16 @@ body {
     gap: 0.3rem;
     padding-left: 1rem ;
     
-}
-
+} 
+*/
+/* 
 #search-container{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+} 
+*/
+/* 
 #search-container input{
     width: 100%;
     padding: 0.5rem;
@@ -48,24 +60,27 @@ body {
     border-radius: 1rem;
     background-color: transparent;
 }
+*/
 
-#user-icon{
+/* #user-icon{
     display: flex;
     justify-content: flex-end;
     
-}
-#user-icon img{
+} */
+/* #user-icon img{
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-}
+} */
 
+/* 
 #menu {
     grid-column: 1 / 2;
-    grid-row: 2 / 3; /* se cuantas por lineas de las filas*/
+    grid-row: 2 / 3; // se cuantas por lineas de las filas
     padding: 0 1rem 0 0;
-}
-
+} 
+*/
+/* 
 #menu .menu-item{
  padding: 1rem;
  border-radius: 20px;
@@ -73,30 +88,30 @@ body {
  flex-direction: row;
  gap: 0.5rem;
  align-items: center;
-}
-
+} */
+/* 
 #menu .menu-item:hover{
  background-color: #282828;
-}
-
+} */
+/* 
 #content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 
-}
+} */
 
-#categories-list{
+/* #categories-list{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-}
-#categories-list .category{
+} */
+/* #categories-list .category{
     padding: 0.5rem 1rem;
     border-radius: 20px;
     background-color: #282828;
-}
+} */
 
-.video-card {
+/* .video-card {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -106,33 +121,37 @@ body {
     border-radius: 10px;
     object-fit: cover;
     aspect-ratio: 16/9;
-}
+} */
 /* // para que se centre la imagen */
-.video-card footer {
+/* .video-card footer {
     display: grid;
     gap: 0.5rem;
     grid-template-columns: 2rem 1fr;
     
-}
-
+} */
+/* 
 .video-card footer img{
-    /* va a comenzar en la columna comienza y en cual termina */
+    // va a comenzar en la columna comienza y en cual termina 
     grid-column: 1/2;
-    /* 3rem porque la columna tiene 3rem de ancho */
+    // 3rem porque la columna tiene 3rem de ancho 
     width: 2rem; 
     height: 2rem;
     border-radius: 50%;
-}
+} */
 
-.video-card-channel, .video-card-title {
+/* .video-card-channel, .video-card-title {
     grid-column: 2 / 3;
-}
+} */
 /* // para que se centre la imagen */
 
-#videos{
+/* #videos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     padding-top: 1rem;
 
-}
+} */
+
+/* .special {
+    border: 1px solid red
+} */
